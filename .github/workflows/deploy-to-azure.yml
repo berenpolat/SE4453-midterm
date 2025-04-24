@@ -28,4 +28,4 @@ jobs:
           app-name: se4458-midterm-api
           slot-name: production
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: target/*.jar
+          package: target/se4453-midterm-0.0.1-SNAPSHOT.jar
