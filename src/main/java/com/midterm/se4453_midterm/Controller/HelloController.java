@@ -10,7 +10,10 @@ public class HelloController {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
-
+    @GetMapping("/")
+    public String root() {
+        return "App is deployed and running.";
+    }
     @GetMapping("/hello")
     public String hello() {
         try {
