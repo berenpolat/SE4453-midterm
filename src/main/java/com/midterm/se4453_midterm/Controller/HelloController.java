@@ -12,7 +12,7 @@ public class HelloController {
     private JdbcTemplate jdbcTemplate;
     @GetMapping("/")
     public String root() {
-        return "App is deployed and running.";
+        return System.getenv("SPRING_DATASOURCE_USERNAME");
     }
     @GetMapping("/hello")
     public String hello() {
