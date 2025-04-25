@@ -23,4 +23,14 @@ public class HelloController {
             return "Database connection failed: " + e.getMessage();
         }
     }
+	
+		@GetMapping("/debug-db")
+	public String dbDebug() {
+		try {
+			return jdbcTemplate.getDataSource().getConnection().getMetaData().getURL();
+		} catch (Exception e) {
+			return "FAILED: " + e.getMessage();
+		}
+	}
+
 }

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.midterm.se4453_midterm.Se4453MidtermApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.690 s -- in com.midterm.se4453_midterm.Se4453MidtermApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.398 s -- in com.midterm.se4453_midterm.Se4453MidtermApplicationTests
